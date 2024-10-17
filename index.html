@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Jogo Dos Velhos</h1>
+    <table class="tabela" width="200" border="1">
+        <tbody>
+            <tr>
+                <td><img src="img/transp.png" id="c1" onclick="checkjogo(this.id)" class="image" /></td>
+                <td><img src="img/transp.png" id="c2" onclick="checkjogo(this.id)" class="image" /></td>
+                <td><img src="img/transp.png" id="c3" onclick="checkjogo(this.id)" class="image" /></td>
+            </tr>
+            <tr>
+                <td><img src="img/transp.png" id="c4" onclick="checkjogo(this.id)" class="image" /></td>
+                <td><img src="img/transp.png" id="c5" onclick="checkjogo(this.id)" class="image" /></td>
+                <td><img src="img/transp.png" id="c6" onclick="checkjogo(this.id)" class="image" /></td>
+            </tr>
+            <tr>
+                <td><img src="img/transp.png" id="c7" onclick="checkjogo(this.id)" class="image" /></td>
+                <td><img src="img/transp.png" id="c8" onclick="checkjogo(this.id)" class="image" /></td>
+                <td><img src="img/transp.png" id="c9" onclick="checkjogo(this.id)" class="image" /></td>
+            </tr>
+        </tbody>
+    </table>    
+    <label>
+        <input type="checkbox" id="cpu" checked> Jogar contra a máquina
+    </label>
+    
+</body>
+<script src="script.js"></script>
+</html>

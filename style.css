@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #f9f9f9; /* Cor de fundo */
+    text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+    color: #333; /* Cor do título */
+    margin-bottom: 10px; /* Menor espaçamento abaixo do título */
+}
+
+table {
+    margin: 0 auto; /* Centraliza a tabela */
+}
+
+.image {
+    width: 200px; /* Ajuste o tamanho das imagens */
+    height: 200px; /* Ajuste o tamanho das imagens */
+}
+
+body{
+    background-image: url(img/VELHA_DO_ROCK.jpg);
+    height: 500px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
